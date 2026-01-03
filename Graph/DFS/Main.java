@@ -1,4 +1,4 @@
-package DSA2026.Graph;
+package DSA2026.Graph.DFS;
 
 import java.util.ArrayList;
 import java.util.Comparator;
