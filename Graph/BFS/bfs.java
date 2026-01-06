@@ -17,6 +17,7 @@ public class bfs {
             vis[a]=true;
             System.out.println(a+" ");
             for(Integer temp : graph.get(a)){
+                
                 q.add(temp);
             }
         }
