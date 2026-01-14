@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Dijkstra {
+    
     public static class Pair{
         int src;
         int des;
