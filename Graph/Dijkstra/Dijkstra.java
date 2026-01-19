@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Dijkstra {
-    
+
     public static class Pair{
         int src;
         int des;
@@ -50,6 +50,8 @@ public class Dijkstra {
 
             graph.get(src).add(new Pair(src,des,wht));
             graph.get(des).add(new Pair(des,src,wht));
+
+            
 
         }
 
