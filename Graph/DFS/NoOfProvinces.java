@@ -54,3 +54,33 @@ class Solution {
 //only thing we can optimised is space 
 
  */
+/*
+class Solution {
+    public int findCircleNum(int[][] a) {
+        int count =0;
+        int v=a.length;
+        boolean []vis = new boolean[v];
+        for(int i=0;i<v;i++){ //O(v)
+            if(vis[i]==false){
+                count++;
+                dfs(i,vis,a);
+            }
+        }
+        return count;
+    }
+    public void dfs(int i , boolean []vis , int [][]a){
+        if(vis[i])return ; 
+        vis[i]=true;
+        for(int j=0;j<a[i].length;j++){
+            if(a[i][j]==1 && vis[j]==false){
+                dfs(j,vis,a);
+            }
+        }
+    }
+}/*
+
+Time Complexity: O(V²) because each DFS scans a full row of the adjacency matrix
+Space Complexity: O(V) due to visited array and recursion stack
+
+ */
+

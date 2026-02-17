@@ -6,6 +6,7 @@ class Solution {
     public int[][] floodFill(int[][] a, int sr, int sc, int clr) {
         mainColor=a[sr][sc];
         color=clr;
+        //imp based condition if existing color is equal to color to be colored 
         if(mainColor==color)return a;
         dfs(sr,sc,a);
         return a;
