@@ -10,6 +10,7 @@ public class noOfDistinctisland
 			this.i=i;
 			this.j=j;
 		}
+		
 	}
 	public static int distinctIsland(int [][] a, int n, int m) 
 	{
