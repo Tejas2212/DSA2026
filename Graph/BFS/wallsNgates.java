@@ -1,8 +1,8 @@
 package DSA2026.Graph.BFS;
 
 import java.util.* ;
-import java.io.*; 
-public class Solution {
+ 
+public class wallsNgates {
     static class Pair{
         int i;
         int j;
@@ -86,3 +86,4 @@ Condition becomes:
 ?? BFS will never expand from gates
 ?? Algorithm breaks
 */
+
